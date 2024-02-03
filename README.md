@@ -6,7 +6,7 @@ This open-source project shows you how to build a DIY toilet flusher using an ES
 
 ## Table of Contents
 
-Features: #features
+    Features: #features
     Hardware Requirements: #hardware-requirements
     Software Requirements: #software-requirements
     Installation: #installation
