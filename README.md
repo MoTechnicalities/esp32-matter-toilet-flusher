@@ -1,8 +1,10 @@
-# esp32-matter-toilet-flusher
+# ESP32 Matter Toilet Flush
+
 Tired of manually flushing your toilet? Take control with smart home automation!
 
 This open-source project shows you how to build a DIY toilet flusher using an ESP32 microcontroller and a servo. Enjoy the convenience and accessibility of automated flushing with your favorite smart home platforms, like Apple Home, Alexa, and Google. It's a great way to add a touch of tech to your bathroom and potentially save water too!
-Table of Contents
+
+## Table of Contents
 
     Features: #features
     Hardware Requirements: #hardware-requirements
@@ -13,15 +15,15 @@ Table of Contents
     License: #license
     Contact: #contact
 
-Features
+## Features
 
     Matter protocol support: Compatible with various smart home ecosystems for seamless integration.
-    Automated flushing: No more manual flushing is required!
+    Automated flushing: No more manual flushing required!
     Remote control: Trigger flushes from your smartphone or voice assistant.
     Potential water savings: Conserve water by flushing only when needed.
     Accessible design: Can be adapted for individuals with limited mobility.
 
-Hardware Requirements
+## Hardware Requirements
 
     ESP32 microcontroller
     Servo motor
@@ -29,13 +31,13 @@ Hardware Requirements
     Breadboard and jumper wires
     Toilet tank assembly (for installation)
 
-Software Requirements
+## Software Requirements
 
     Arduino IDE (or compatible development environment)
     ESP32 board package
     Matter library (if using Matter protocol)
 
-Installation
+## Installation
 
     Clone this repository to your local machine.
     Open the project in the Arduino IDE.
@@ -43,13 +45,13 @@ Installation
     Connect your ESP32 and servo to your computer.
     Upload the code to your ESP32.
 
-Usage
+## Usage
 
     Follow the instructions in the code to configure your Wi-Fi and Matter settings (if applicable).
     Install the servo mechanism on your toilet tank.
     Use your smart home app or voice assistant to control the flusher.
 
-Contributing
+## Contributing
 
 We welcome contributions to this project! Please feel free to:
 
@@ -57,9 +59,10 @@ We welcome contributions to this project! Please feel free to:
     Create pull requests to improve the code or documentation.
     Share your own experiences and modifications.
 
-License
+## License
 
-This project is licensed under the Apache License, Version 2.0: LICENSE.
-Contact
+This project is licensed under the Apache License, Version 2.0: LICENSE: LICENSE.
 
-For any questions or feedback, please reach out to Your Name or GitHub Username: Link to your GitHub Profile.
+## Contact
+
+For any questions or feedback, please reach out to Your Name or GitHub Username: Link to your GitHub Profile: Link to your GitHub Profile.
