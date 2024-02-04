@@ -7,7 +7,7 @@ This open-source project will help you build a DIY toilet flusher using an ESP32
 ![image](https://github.com/MoTechnicalities/esp32-matter-toilet-flusher/assets/68468472/0c25c598-983b-45c8-b5d7-26047e2a724a)
 ![image](https://github.com/MoTechnicalities/esp32-matter-toilet-flusher/assets/68468472/8f62bbc7-c20e-4726-8e97-d4e22ab0b084)
 
-  <b>Notice:</b> Affeliate links may be provided for the products used to create this project. Please consider using them when available if you decide to purchase the items. Using the links will help me to continue providing great content at no caust to you.  
+  <b>Notice:</b> Affeliate links may be provided for the products used to create this project. Please consider using them when available if you decide to purchase the items. Using the links will help me to continue providing helpful content at no caust to you.  
 ## Table of Contents
 
 [Features](https://github.com/MoTechnicalities/esp32-matter-toilet-flusher/tree/main#table-of-contents)  
@@ -36,10 +36,16 @@ This open-source project will help you build a DIY toilet flusher using an ESP32
 However, for users interested in Matter over Thread functionality, newer models like the ESP32-H2 specifically support this protocol and may offer additional benefits. Remember to check your chosen model's memory requirements and Thread/Matter compatibility before proceeding.
 
 <b>Servo motor:</b>  
+![image](https://github.com/MoTechnicalities/esp32-matter-toilet-flusher/assets/68468472/0e4d99b0-0b74-405d-b336-5b5b734b5b82)    
     You will want a servo motor with sufficient torque to reliably flush your toilet's water tank. A minimum torque rating of 2kg-cm is recommended, but adjust this based on your specific tank's requirements. The servo should also be compatible with the ESP32's 5V power output. Popular options include the budget-friendly SG90 9G Servo or the MG90 9G Servo with metal gears for increased durability and handling higher torque demands. If using a higher-torque servo, multiple servos, or desiring added reliability, consider using a separate power supply to avoid overloading the ESP32. Remember to verify your chosen servo's torque rating and power requirements before proceeding.  
     
 <b>Power supply:</b>  
-    The ESP WROOM32 has a stanard Micro USB connector that requires a 5-volt DC supply. A power supply with 2.5 Amps should be sufficient to power both the ESP and the servo for most use cases. If using a high-torque servo or multiple servos, adjust your power supply choice based on their combined requirements.
+    The ESP32 WROOM-32 has a standard Micro USB connector and requires a 5-volt DC power supply. For most setups, a power supply with 2.5 Amps should be sufficient. However, consider these recommendations for different scenarios:  
+  --<b>High-torque servo or multiple servos:</b> Adjust your power supply choice based on their combined current requirements. You might need a higher amperage rating (e.g., 3A or 5A) to avoid overloading.  
+  --<b>Portability or testing:</b> A power bank with sufficient capacity and 2.5 Amp output can be convenient.  
+  --<b>Off-grid use:</b> Choose a 5V lithium-ion battery pack with adequate capacity and built-in safety features.  
+
+Important: Always match the power supply's connector type (e.g., Micro USB) to your specific ESP32 model.
     
 <b>Breadboard and jumper wires</b>  
     The first breadboards I used to develop this project was the BOJACK 3 Values 130 Pcs Solderless Breadboard 4 Pcs 830 Tie Points & 400 Tie Points & 126 Pcs Flexible Breadboard Jumper Wires.   
